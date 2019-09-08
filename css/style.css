@@ -115,9 +115,9 @@ a {
 
 
 /* MOBILE? */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 1023px) {
   body {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   #wrapper {
@@ -136,7 +136,7 @@ a {
 }
 
 /* DESKTOP and IPAD? */
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 1024px) {
   body {
     font-size: 1em;
     padding-top: 2em;
